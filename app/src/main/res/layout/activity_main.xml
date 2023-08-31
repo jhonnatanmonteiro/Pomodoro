@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/timerTV"
+        android:layout_width="396dp"
+        android:layout_height="314dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="352dp"
+        android:background="@drawable/custom_rounded_background"
+        android:fontFamily="@font/unidream_led"
+        android:gravity="center"
+        android:text="25:00"
+
+        android:textAlignment="center"
+        android:textSize="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/startTimerButton"
+        android:layout_width="139dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="@color/blue"
+        android:gravity="center"
+        android:text="start"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/stopTimerButton"
+        android:layout_width="139dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="@color/blue"
+        android:gravity="center"
+        android:text="stop"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cycleCounterTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        android:text="Ciclos Pomodoro : 0"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="702dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="10dp"
+        android:text="Dica coloque o telefone em modo não pertube para maior foco"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="702dp"
+        android:fontFamily="@font/unidream_led"
+        android:text="DIGITAL TIMER"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
